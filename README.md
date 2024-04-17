@@ -42,8 +42,12 @@ Traefik with postgres and pgadmin
 
 # Pgadmin
 
- ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/pgadminusernameandpassword.png?raw=true)
-<h1> UI</h1>
+       Pgadmin credentials :
+       
+       Username: admin@example.com
+       Password: admin
+
+<h3> UI</h3>
 
  ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/Screenshot%202024-04-17%20at%2013.36.09.png?raw=true)
 
