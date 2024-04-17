@@ -41,6 +41,10 @@ Traefik with postgres and pgadmin
   ![alt text](https://github.com/ramanamuttana/traefik/blob/main/Screenshot%202024-04-03%20at%2018.49.12.png?raw=true)
 
 # Pgadmin
+
+ ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/pgadminusernameandpassword.png?raw=true)
+<h1> UI</h1>
+
  ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/Screenshot%202024-04-17%20at%2013.36.09.png?raw=true)
 
 
