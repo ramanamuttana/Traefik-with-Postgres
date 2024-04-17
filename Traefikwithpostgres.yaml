@@ -1,1 +1,53 @@
-services
+version: '3'
+services:
+  traefik:
+    image: traefik:latest
+    restart: always
+    command: 
+      - "--log=true"
+      - "--log.level=error"
+      - "--api.insecure=true" 
+      - "--api.dashboard=true"
+      - "--entrypoints.web.address=:80"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.traefik.service=api@internal"
+      - "traefik.http.routers.traefik.entrypoints=web"
+      - "traefik.http.routers.traefik.rule=Host(`traefik.testing.de`)"
+    ports:
+      - "80:80"
+      - "8030:8030"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+  postgresql:       #name 
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: mydatabase
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.services.postgresql.loadbalancer.server.port=5432"
+      - "traefik.http.routers.postgresql.rule=Host(`postgresql.testing.de`)"
+      - "traefik.http.routers.postgresql.entrypoints=web" # Assuming 'web' is your HTTP entrypoint defined in Traefik
+    ports:
+      - "8050:8050"
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.pgadmin.rule=Host(`pgadmin.testing.de`)"
+      - "traefik.http.routers.pgadmin.entrypoints=web" # Assuming 'web' is your HTTP entrypoint defined in Traefik
+    ports:
+      - "8080:8080"
+
+  
+
