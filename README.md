@@ -41,8 +41,15 @@ Traefik with postgres and pgadmin
   ![alt text](https://github.com/ramanamuttana/traefik/blob/main/Screenshot%202024-04-03%20at%2018.49.12.png?raw=true)
 
 # Pgadmin
- ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/Screenshot%202024-04-17%20at%2013.36.09.png?raw=true)
 
+       Pgadmin credentials :
+       
+       Username: admin@example.com
+       Password: admin
+
+<h3> UI</h3>
+
+ ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/pgadminUI.png?raw=true)
 
 # Stop All Running Containers
  1) Enter <b>Ctrl+c</b> on Terminal , all the containers will be stopped .
