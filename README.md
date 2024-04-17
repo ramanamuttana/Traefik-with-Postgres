@@ -49,6 +49,16 @@ Traefik with postgres and pgadmin
 
 <h3> UI</h3>
 
+       Name :           Should be service name according to Traefikwithpostgres.yaml
+       Shared Username:  myuser
+       
+       <h3>connection</h3> 
+       
+       
+
+
+ ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/pgadminconnection1.png?raw=true)
+
  ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/pgadminUI.png?raw=true)
 
 # Stop All Running Containers
