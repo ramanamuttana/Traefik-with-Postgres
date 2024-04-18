@@ -47,17 +47,21 @@ Traefik with postgres and pgadmin
        Username: admin@example.com
        Password: admin
 
-<h3> UI</h3>
+<h2> UI</h2>
 
-       Name :           Should be service name according to Traefikwithpostgres.yaml
-       Shared Username:  myuser
-       
-       <h3>connection</h3> 
-       
-       
+<h3>General</h3> 
 
+**Name**: Should be service name according to Traefikwithpostgres.yaml for Example: `Postgresql`
+
+**Shared Username:** `myuser`
 
  ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/Images/pgadminconnection1.png?raw=true)
+       
+<h3>Connection</h3>
+
+
+
+
 
  ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/Images/pgadminUI.png?raw=true)
 
