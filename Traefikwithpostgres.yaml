@@ -48,6 +48,8 @@ services:
       - "traefik.http.routers.pgadmin.entrypoints=web" # Assuming 'web' is your HTTP entrypoint defined in Traefik
     ports:
       - "8080:8080"
+    depends_on:
+      - postgresql
 
   
 
