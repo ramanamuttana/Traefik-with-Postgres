@@ -35,6 +35,8 @@ services:
       - "traefik.http.routers.postgresql.entrypoints=web" # Assuming 'web' is your HTTP entrypoint defined in Traefik
     ports:
       - "5432:5432"
+    depends_on:
+      - traefik
 
   pgadmin:
     image: dpage/pgadmin4
