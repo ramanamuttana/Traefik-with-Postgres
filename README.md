@@ -41,7 +41,9 @@ Traefik with postgres and pgadmin
   ![alt text](https://github.com/ramanamuttana/traefik/blob/main/Screenshot%202024-04-03%20at%2018.49.12.png?raw=true)
 
 # Pgadmin
-
+ 
+1) Open browser and type ``pgadmin.testing.de``
+       
        Pgadmin credentials :
        
        Username: admin@example.com
