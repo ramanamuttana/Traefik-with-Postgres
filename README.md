@@ -57,13 +57,13 @@ Traefik with postgres and pgadmin
 
 **Shared Username:** `myuser`
 
-<h3>Connection</h3>
+<h3>Connection With DB(Postgres)</h3>
 
  ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/Images/pgadminconnection1.png?raw=true)
        
+<p>2)Connection Settings</p>
 
-
-
+ ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/Images/pgadminwithpostgres2.png?raw=true)
 
 
 
