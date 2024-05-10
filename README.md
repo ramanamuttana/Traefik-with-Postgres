@@ -28,9 +28,11 @@ Traefik with postgres and pgadmin
        127.0.0.1 pgadmin.testing.de
    
 
-   we can change according to our request.If we want to change the domain name , change in the traefiklatest.yaml file and in the hosts file.
+   we can change according to our request.
 
-6) save by typing <b>ctrl+x</b> enter <b>Y</b> to save and click on <b>ENTER</b> button 
+   <B><I>Note</I></B>:If we want to change the domain name , change in the ``traefiklatest.yaml`` file and in the ``hosts`` file.
+
+6) To save , just type  <b>ctrl+x</b> enter <b>Y</b> to save ,then  click on <b>ENTER</b> button 
 
 7) Go to the yaml file directory and then open Terminal and type :``docker compose -f traefikwithpostgres.yaml up``
 
