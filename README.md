@@ -3,7 +3,7 @@ Traefik with postgres and pgadmin
 
 # Run traefik
 
-<h3>Traefik with Docker on UBUNTU</h3>
+<h3>Traefik with Docker on Ubuntu</h3>
 
 <strong><i>Note</i></strong> : Make sure docker is up and running .
 
