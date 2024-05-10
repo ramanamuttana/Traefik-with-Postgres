@@ -71,5 +71,5 @@ Traefik with postgres and pgadmin
 
  ![alt text](https://github.com/ramanamuttana/TraefikwithPostgres/blob/main/Images/pgadminUI.png?raw=true)
 
-# Stop All Running Containers
+# To Stop All the Running Containers
  1) Enter <b>Ctrl+c</b> on Terminal , all the containers will be stopped .
