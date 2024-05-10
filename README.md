@@ -7,7 +7,7 @@ Traefik with postgres and pgadmin
 
 <strong><i>Note</i></strong> : Make sure docker is up and running .
 
-1) Pull the image from dockerhub:  ``docker pull traefik`` or a particular version , for Example:
+1) Pull the image from dockerhub:  ``docker pull traefik``  which will download the latest version or if you are interested on a particular version then downlaod as shown below , for Example:
 
        docker pull traefik:v3.0
 
