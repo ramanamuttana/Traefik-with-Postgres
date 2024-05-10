@@ -1,4 +1,4 @@
-# Traefik with Postgres and Pgadmin 
+# Traefik with Postgres and Pgadmin4
 Traefik with postgres and pgadmin
 
 # Run traefik
