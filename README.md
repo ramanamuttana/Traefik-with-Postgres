@@ -51,7 +51,7 @@ Traefik with postgres and pgadmin
        Username: admin@example.com
        Password: admin
 
-<h2> UI</h2>
+<h2> DB settings in Pgadmin4</h2>
 
 <h3>General</h3> 
 
