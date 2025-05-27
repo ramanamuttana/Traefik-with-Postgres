@@ -1,4 +1,4 @@
-# Traefik with Postgres and Pgadmin4
+# Traefik Reverse Proxy with Postgres and Pgadmin4
 Traefik with postgres and pgadmin4
 
 # Run traefik
