@@ -40,7 +40,8 @@ Traefik with postgres and pgadmin4
 
  # Dashboard
 
-  ![alt text](https://github.com/ramanamuttana/traefik/blob/main/Screenshot%202024-04-03%20at%2018.49.12.png?raw=true)
+
+  ![alt text](https://github.com/ramanamuttana/Traefik-with-Postgres/blob/main/Images/Screenshot%202026-01-07%20at%2020.50.52.png?raw=true)
 
 # Pgadmin4
  
