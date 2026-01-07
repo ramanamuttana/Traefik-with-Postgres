@@ -34,7 +34,9 @@ Traefik with postgres and pgadmin4
 
 6) To save , just type  <b>ctrl+x</b> enter <b>Y</b> to save ,then  click on <b>ENTER</b> button 
 
-7) Go to the ``traefikwithpostgres.yaml`` file directory and then open Terminal and type :``docker compose -f traefikwithpostgres.yaml up``
+7) Go to the ``traefikwithpostgres.yaml`` file directory and then open Terminal and type :
+
+         docker compose -f traefikwithpostgres.yaml up
 
 8) Open browser and type ``traefik.testing.de``
 
